@@ -2,7 +2,7 @@
     "family": "webinar-task",
     "containerDefinitions": [
         {
-            "image": "%REPOSITORY_URI%:v_%BUILD_NUMBER%",
+            "image": "REPOSITORY_URI:BUILD_NUMBER",
             "name": "webinar-flask",
             "cpu": 10,
             "memory": 300,
